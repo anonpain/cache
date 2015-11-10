@@ -35,7 +35,7 @@ class ArrayCache extends CacheProvider
     /**
      * @var array $data
      */
-    private $data = array();
+    protected $data = array();
 
     /**
      * {@inheritdoc}
